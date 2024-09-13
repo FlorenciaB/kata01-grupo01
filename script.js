@@ -78,7 +78,13 @@ const randomWeightFlag = new FeatureFlag(
 console.log(featureFlagSystem.getFeatureFlag("cliente1", roundRobinFlag));
 console.log(featureFlagSystem.getFeatureFlag("cliente2", roundRobinFlag));
 console.log(featureFlagSystem.getFeatureFlag("cliente1", roundRobinFlag));
+console.log(featureFlagSystem.getFeatureFlag("cliente3", roundRobinFlag));
+console.log(featureFlagSystem.getFeatureFlag("cliente4", roundRobinFlag));
+console.log(featureFlagSystem.getFeatureFlag("cliente3", roundRobinFlag));
 
 console.log(featureFlagSystem.getFeatureFlag("cliente1", randomWeightFlag));
 console.log(featureFlagSystem.getFeatureFlag("cliente2", randomWeightFlag));
 console.log(featureFlagSystem.getFeatureFlag("cliente1", randomWeightFlag));
+console.log(featureFlagSystem.getFeatureFlag("cliente4", randomWeightFlag));
+console.log(featureFlagSystem.getFeatureFlag("cliente3", randomWeightFlag));
+console.log(featureFlagSystem.getFeatureFlag("cliente4", randomWeightFlag));
